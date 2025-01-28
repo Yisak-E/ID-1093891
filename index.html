@@ -1,63 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>Portofolio</title>
+        <meta charset="utf-8">
+        <meta name="description" content="personal mini profile">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                
+            </nav>
+            <div id="profile_img">
+                <img src="assets/back_image.jpg" alt="Profile Background" id="img4back">
+                <img src="assets/Yisak_profile.jpg" alt="profile image" id="imgOfront">
+            </div>
+            <h1>Yisak D. Metaferiya</h1>
+            <h2>Software Developer</h2>
+        </header>
+        <div>
+            <p>
+                I'm a passionate software engineering student at ADU. My goal is to advance my skills in computer and related
+                courses to
+                make a significant change in the field. By excelling in my coursework, building a project portfolio, seeking
+                internships, and staying updated with tech trends, I aim to grow professionally. Networking, developing both
+                technical
+                and soft skills, earning relevant certifications, and having a mentor will guide me toward a successful software
+                engineering career.
+            </p>
+        </div>
+        <hr>
+        <h2 style="font-weight: 500; color: rgb(0, 0, 72);">Portfolio</h2>
+        
+        <div id="portf_parts">
+            <div class="ports">
+                <div class="port_img">
+                    <img src="assets/tic.jpg" alt="tic" id="tic_img_sam">
+                </div>
+                <div>
+                    <h2  style="margin: 0;"><a class="tic_link" href="https://yisak-e.github.io/Tic_Tie_Toe-with_js/">Tic Tie Toe</a></h2>
+                    <p>mini two player featured game with js</p>
+                    
+                </div>
+            </div>
+            <div class="ports">
+                <div class="port_img"></div>
+                <div>
+                    <h2>Word counter</h2>
+                </div>
+            </div>
+            <div class="ports">
+                <div class="port_img"></div>
+                <div>
+                    <h2>Github projects</h2>
+                </div>
+            </div>
+        </div>
+        <div class="content">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <title>Yisak Demelash Metaferiya</title>
-  <meta name="description" content="Your personal portfolio">
-
-  <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body>
-  <div class="container">
-    <header>
-      <h1>Yisak Demelash Metaferiya</h1>
-     <div>
-        <img id="profile" src="assets/Yisak_profile.jpg" alt="Yisak's Profile" ><br />
-    </div>    
-     <p>
-        <b>E-mail:</b> yisakdemelash@gmail.com <br />
-        <b>Tel:</b> (+251)-976-000000<br />
-        Undergraduate Student<br />
-        Abu Dhabi University<br />
-        <a href="./assets/mysampleCV.pdf">Link to CV</a><br /><br />
-        <a href="https://www.linkedin.com/in/yisak-metaferiya-029149290/">
-          <img src="./assets/linkedin-48.png" alt="linkedin" id="lik_img">
-        </a>
-        <a href="https://github.com/Yisak-E/">
-          <img id="git_img" src="assets/github-48.png" alt="github">
-        </a>
-       <p><a href="./additional_pages/about.html">About Me</a></p>
-      </p>
-    </header>
-
-    <section class="content">
-      <h3>About Me</h3>
-      <p>
-      I'm a passionate software engineering student at ADU. My goal is to advance my skills in computer and related courses to
-      make a significant change in the field. By excelling in my coursework, building a project portfolio, seeking
-      internships, and staying updated with tech trends, I aim to grow professionally. Networking, developing both technical
-      and soft skills, earning relevant certifications, and having a mentor will guide me toward a successful software
-      engineering career. 
-  </p>
-
-      <h3>Education</h3>
-      <ul>
-        <li><b><a href="https://www.adu.ac.ae/">Abu Dhabi University</a></b>, B.Sc Software Engineering, 2023- Present</li>
-        <li><b><a href="https://www.Coursera.com/">Ejere Secondary and Preparatory School</a></b>, High School Diploma, 2022</li>
-      </ul>
-
-      <h3>Skills</h3>
-      <ul>
-        <li>Programming Languages: Python, Java</li>
-        <li>Web Development: HTML, CSS, JavaScript</li>
-        <li>Other Skills: Teamwork, Communication, Problem-Solving</li>
-      </ul>
-    </section>
-  </div>
-</body>
+            <h2>Education</h2>
+            <ul>
+                <li><b><a href="https://www.adu.ac.ae/">Abu Dhabi University</a></b> &nbsp; B.Sc Software Engineering, 2023- Present
+                </li>
+                <li><b><a href="https://www.Coursera.com/">Coursera </a></b> &nbsp; Profitional certificatations,
+                    Dec-2024 to present</li>
+            </ul>
+        
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages:
+                    <ol>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ol>
+                <li>Web Development: 
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ol>
+                <li>Other Skills:`
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Communication </li>
+                        <li>Problem-Solving</li>
+                    </ul>
+                </li>
+            </ul>
+        
+                <a href="https://www.linkedin.com/in/yisak-metaferiya-029149290/">
+                    <label for="linkedin">Linkedin</label>
+                    <img src="./assets/linkedin-48.png" alt="linkedin" id="lik_img">
+                </a>
+                <br>
+                <a href="https://github.com/Yisak-E/">
+                    <label for="github">Github</label>
+                    <img id="git_img" src="assets/github-48.png" alt="github">
+                </a>
+        </div>
+        <script src="script/main.js"></script>
+        <footer>&copy; Developed by Yisak Met.</footer>
+    </body>
 
 </html>
