@@ -5,7 +5,6 @@
 
 body {
     margin: 0;
-
     background: linear-gradient(to right, #c95, #f7ead3, #c95);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
@@ -92,12 +91,14 @@ hr {
 }
 
 .ports {
-    display:inline-block;
-    width:fit-content;
-    height: fit-content;
-    background-color: aqua;
-    margin: 0 0 20px 50px;
    
+    width: fit-content+ 30px;
+    height: fit-content;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin: 0 25% 20px 25%;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(100 100 100 0.8);
 }
 
 #tic_img_sam {
@@ -131,6 +132,7 @@ footer {
     background-color: black;
     color: rgb(255, 255, 255);
     height: 50px;
+    width: 100%;
     padding: 5px 5px 5px 15px;
     margin-top: 30px;
     font-size: x-large;
@@ -140,4 +142,8 @@ footer {
     font-size: 40px;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #c95;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
 }
