@@ -1,123 +1,142 @@
-*{
+* {
     box-sizing: border-box;
-   
+
 }
-body{
+
+body {
     margin: 0;
-   
+
     background: linear-gradient(to right, #c95, #f7ead3, #c95);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-   
+
 }
-header, #profile_img, #img4back{
+
+header,
+#profile_img,
+#img4back {
     display: flex;
     flex-direction: column;
     align-self: center;
 }
-header{
-    width:100%;
+
+header {
+    width: 100%;
     height: 600px;
     display: flex;
     flex-direction: column;
-    
+
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 5em;
     color: rgb(0, 0, 72);
     margin-bottom: 0;
-    
+
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 2em;
-   
-}
-#profile_img{
-width: 90%;
-height: 350px;
-margin-top: 20px;
 
 }
 
+#profile_img {
+    width: 90%;
+    height: 350px;
+    margin-top: 20px;
 
-#img4back{
-width: 100%;
-height: 100%;
-border-radius: 10px;
+}
+
+
+#img4back {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 
 
 }
-#imgOfront{
+
+#imgOfront {
     position: absolute;
     top: 5%;
     left: 42%;
     width: 200px;
     border-radius: 50%;
-    
+
 }
-#imgOfront:hover{
-   transform: rotate(3deg);
+
+#imgOfront:hover {
+    transform: rotate(3deg);
 }
-p{
+
+p {
     font-weight: 400;
     font-size: 1.8rem;
     padding: 10px 50px;
     text-align: center;
 }
-hr{
+
+hr {
     box-sizing: content-box;
     color: gray;
     width: 10%;
-    border-top-style: dotted ;
+    border-top-style: dotted;
     border-top-width: 1.5rem;
+
+}
+
+#portf_parts {
+    width: fit-content;
+    padding-left: 30px;
+}
+
+.ports {
+    display:inline-block;
+    width:fit-content;
+    height: fit-content;
+    background-color: aqua;
+    margin: 0 0 20px 50px;
    
 }
-#portf_parts{
-width:fit-content;
-display: flex;
-flex-wrap: wrap;
-padding-left: 30px;
-}
-.ports{
-    width: 500px;
-    height: 700px;
-    background-color: aqua;
-    margin:0 0 20px 50px ;
-    align-self: center;
-}
-#tic_img_sam{
-    width:80%;
+
+#tic_img_sam {
+    width: 400px;
     margin-left: 10%;
     margin-top: 20px;
     height: 500px;
     border-radius: 5px;
 }
-li{
+
+li {
     align-self: center;
     font-weight: 400;
     font-size: 1.8rem;
-    
+
     margin-left: 100px;
 }
-a{
+
+a {
     align-self: center;
     font-weight: 400;
     font-size: 1.8rem;
-    }
-div{
+}
+
+div {
     width: 90%;
     margin-left: 5%;
 }
-footer{
+
+footer {
     background-color: black;
     color: rgb(255, 255, 255);
     height: 50px;
-    padding:5px 5px 5px 15px;
+    padding: 5px 5px 5px 15px;
     margin-top: 30px;
     font-size: x-large;
 }
-.tic_link:hover{
+
+.tic_link:hover {
     font-size: 40px;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
